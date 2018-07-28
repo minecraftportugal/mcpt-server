@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  server:
+    image: minecraft-server:1.12.2
+    build:
+      context: server
+      args:
+        spigot_version: 1.12.2
+    volumes:
+      - ./home:/data
+    ports:
+      - "25565:25565"
+      - "25575:25575"
+      - "8123:8123"
+  db:
+    image: mariadb:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=t00t
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ./db/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+
+volumes:
+  dbdata:

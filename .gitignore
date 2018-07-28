@@ -1,2 +1,7 @@
-eula.txt
-data
+home/eula.txt
+home/*.json
+home/world*
+home/crash-reports*
+home/plugins/dynmap/web
+home/logs
+home/scriptcraft/data/

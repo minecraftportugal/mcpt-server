@@ -6,7 +6,7 @@ services:
     build:
       context: server
       args:
-        spigot_version: 1.12.2
+        spigot_version: 1.15.2
     volumes:
       - ./home:/data
     ports:

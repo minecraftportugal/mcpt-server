@@ -10,8 +10,9 @@
 # IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
 
-config-version: 11
+config-version: 12
 settings:
+  log-villager-deaths: true
   save-user-cache-on-stop-only: false
   bungeecord: false
   late-bind: false
@@ -63,9 +64,19 @@ stats:
   forced-stats: {}
 world-settings:
   default:
+    seed-outpost: 165745296
+    seed-endcity: 10387313
+    trident-despawn-rate: 1200
+    end-portal-sound-radius: 0
     verbose: true
     mob-spawn-range: 4
     growth:
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100
@@ -77,6 +88,7 @@ world-settings:
       vine-modifier: 100
       cocoa-modifier: 100
     entity-activation-range:
+      raiders: 48
       animals: 32
       monsters: 32
       misc: 16

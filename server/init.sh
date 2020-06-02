@@ -2,4 +2,4 @@
 
 sleep 3
 
-java -jar /spigot.jar
+java -Xms512M -Xmx1024M -jar /spigot.jar

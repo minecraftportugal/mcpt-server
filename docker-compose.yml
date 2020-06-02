@@ -2,7 +2,8 @@ version: "3"
 
 services:
   server:
-    image: minecraft-server:1.12.2
+    user: 1001:1001
+    image: minecraft-server:1.15.2
     build:
       context: server
       args:

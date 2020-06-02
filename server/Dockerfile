@@ -8,7 +8,7 @@ RUN mkdir /buildtools
 RUN wget -q -P /buildtools https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 
 WORKDIR /buildtools
-RUN java -jar BuildTools.jar --rev ${spigot_version}
+RUN java -Xmx1024M -jar BuildTools.jar --rev ${spigot_version}
 
 VOLUME /data
 WORKDIR /data

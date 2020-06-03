@@ -1,0 +1,14 @@
+worlds:
+  minecraftia5:
+    portalgoesto:
+      NETHER: minecraftia5_nether
+      END: minecraftia5_the_end
+  arcadia-1:
+    portalgoesto:
+      NETHER: arcadia-1_nether
+      END: arcadia-1_the_end
+  arcadia-2:
+    portalgoesto:
+      NETHER: arcadia-2_nether
+      END: arcadia-2_the_end
+bounceback: false

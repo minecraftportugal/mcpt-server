@@ -1,0 +1,471 @@
+portals:
+  limbo-2:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -1446.0,43.0,2520.0:-1444.0,46.0,2520.0
+    world: world-limbo-1
+    destination: p:amalia-oriente-limbo:E
+  limbo-3:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -1467.0,51.0,2565.0:-1463.0,56.0,2565.0
+    world: world-limbo-1
+    destination: p:amalia-sul-limbo:E
+  abilio-ocidente-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -8904.0,50.0,-1577.0:-8904.0,54.0,-1573.0
+    world: world-arcadia-1
+    destination: p:temple-abilio-ocidente
+  abilio-ocidente-norte:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -8910.0,47.0,-1589.0:-8906.0,51.0,-1589.0
+    world: world-arcadia-1
+    destination: p:abilio-norte-ocidente
+  abilio-ocidente-sul:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -8902.0,47.0,-1589.0:-8898.0,51.0,-1589.0
+    world: world-arcadia-1
+    destination: p:abilio-sul-ocidente
+  abilio-ocidente-oriente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -8910.0,47.0,-1561.0:-8906.0,51.0,-1561.0
+    world: world-arcadia-1
+    destination: p:abilio-oriente-ocidente
+  abilio-sul-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 737.0,50.0,8520.0:739.0,53.0,8520.0
+    world: world-arcadia-1
+    destination: p:temple-abilio-sul:N
+  abilio-sul-norte:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 724.0,47.0,8522.0:724.0,51.0,8526.0
+    world: world-arcadia-1
+    destination: p:abilio-norte-sul
+  abilio-sul-oriente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 752.0,47.0,8522.0:752.0,51.0,8526.0
+    world: world-arcadia-1
+    destination: p:abilio-oriente-sul
+  abilio-sul-ocidente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 752.0,47.0,8514.0:752.0,51.0,8518.0
+    world: world-arcadia-1
+    destination: p:abilio-ocidente-sul
+  abilio-norte-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -208.0,51.0,-5182.0:-204.0,55.0,-5182.0
+    world: world-arcadia-1
+    destination: p:temple-abilio-norte:N
+  abilio-norte-sul:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -220.0,48.0,-5188.0:-220.0,52.0,-5184.0
+    world: world-arcadia-1
+    destination: p:abilio-sul-norte:S
+  abilio-norte-ocidente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -192.0,48.0,-5188.0:-192.0,52.0,-5184.0
+    world: world-arcadia-1
+    destination: p:abilio-ocidente-norte:S
+  abilio-norte-oriente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -192.0,48.0,-5180.0:-192.0,52.0,-5176.0
+    world: world-arcadia-1
+    destination: p:abilio-oriente-norte:S
+  abilio-oriente-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 8122.0,54.0,298.0:8122.0,58.0,302.0
+    world: world-arcadia-1
+    destination: p:temple-abilio-oriente
+  abilio-oriente-ocidente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 8116.0,51.0,286.0:8120.0,55.0,286.0
+    world: world-arcadia-1
+    destination: p:abilio-ocidente-oriente
+  abilio-oriente-norte:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 8124.0,51.0,314.0:8128.0,55.0,314.0
+    world: world-arcadia-1
+    destination: p:abilio-norte-oriente
+  abilio-oriente-sul:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 8116.0,51.0,314.0:8120.0,55.0,314.0
+    world: world-arcadia-1
+    destination: p:abilio-sul-oriente
+  limbo-4:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: DeanM_
+    location: -1531.0,35.0,2514.0:-1531.0,39.0,2518.0
+    world: world-limbo-1
+    destination: p:amalia-ocidente-limbo:W
+  temple-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 26.0,200.0,-106.0:26.0,204.0,-102.0
+    world: world-portals-1
+    destination: p:limbo-temple:E
+  limbo-temple:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -1500.0,51.0,2506.0:-1500.0,53.0,2510.0
+    world: world-limbo-1
+    destination: p:temple-limbo:E
+  temple-abilio-norte:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 92.0,203.0,-108.0:95.0,205.0,-108.0
+    world: world-portals-1
+    destination: p:abilio-norte-limbo
+  temple-abilio-sul:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 95.0,203.0,-108.0:98.0,205.0,-108.0
+    world: world-portals-1
+    destination: p:abilio-sul-limbo
+  temple-abilio-oriente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 95.0,203.0,-100.0:98.0,205.0,-100.0
+    world: world-portals-1
+    destination: p:abilio-oriente-limbo
+  temple-abilio-ocidente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 92.0,203.0,-100.0:95.0,205.0,-100.0
+    world: world-portals-1
+    destination: p:abilio-ocidente-limbo
+  minecraftia5-temple:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 270.0,129.0,489.0:274.0,134.0,489.0
+    world: world-minecraftia5
+    destination: p:temple-minecraftia5:E
+  temple-minecraftia5:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -43.0,202.0,-106.0:-43.0,206.0,-102.0
+    world: world-portals-1
+    destination: p:minecraftia5-temple:S
+  amalia-oriente-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 6769.0,57.0,532.0:6769.0,60.0,536.0
+    world: world-arcadia-2
+    destination: p:limbo-2:N
+  amalia-norte-ocidente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -191.0,49.0,-8460.0:-187.0,53.0,-8460.0
+    world: world-arcadia-2
+    destination: p:amalia-ocidente-norte
+  amalia-norte-oriente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -199.0,49.0,-8460.0:-195.0,53.0,-8460.0
+    world: world-arcadia-2
+    destination: p:amalia-oriente-norte
+  amalia-norte-sul:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -191.0,49.0,-8488.0:-187.0,53.0,-8488.0
+    world: world-arcadia-2
+    destination: p:amalia-sul-norte
+  amalia-oriente-norte:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 6771.0,54.0,548.0:6775.0,58.0,548.0
+    world: world-arcadia-2
+    destination: p:amalia-norte-oriente
+  amalia-oriente-sul:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 6763.0,54.0,548.0:6767.0,58.0,548.0
+    world: world-arcadia-2
+    destination: p:amalia-sul-oriente
+  amalia-sul-ocidente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -535.0,70.0,8471.0:-531.0,74.0,8471.0
+    world: world-arcadia-2
+    destination: p:amalia-ocidente-sul
+  amalia-sul-oriente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -543.0,70.0,8471.0:-539.0,74.0,8471.0
+    world: world-arcadia-2
+    destination: p:amalia-oriente-sul
+  amalia-sul-norte:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -543.0,70.0,8443.0:-539.0,74.0,8443.0
+    world: world-arcadia-2
+    destination: p:amalia-norte-sul
+  amalia-ocidente-norte:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -11122.0,46.0,125.0:-11118.0,50.0,125.0
+    world: world-arcadia-2
+    destination: p:amalia-norte-ocidente
+  amalia-ocidente-sul:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -11130.0,46.0,125.0:-11126.0,50.0,125.0
+    world: world-arcadia-2
+    destination: p:amalia-sul-ocidente
+  amalia-oriente-ocidente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: 6763.0,54.0,520.0:6767.0,57.0,520.0
+    world: world-arcadia-2
+    destination: p:amalia-ocidente-oriente
+  amalia-ocidente-oriente:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -11122.0,46.0,97.0:-11118.0,49.0,97.0
+    world: world-arcadia-2
+    destination: p:amalia-oriente-ocidente
+  amalia-nether-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -5.0,83.0,1.0:1.0,86.0,1.0
+    world: world-arcadia-2_nether
+    destination: p:limbo-5
+  limbo-5:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -1518.0,36.0,2500.0:-1518.0,39.0,2504.0
+    world: world-limbo-1
+    destination: p:amalia-nether-limbo
+  amalia-sul-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -536.0,73.0,8456.0:-536.0,76.0,8458.0
+    world: world-arcadia-2
+    destination: p:limbo-3:N
+  amalia-ocidente-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -11123.0,49.0,110.0:-11123.0,52.0,112.0
+    world: world-arcadia-2
+    destination: p:limbo-4:E
+  amalia-norte-limbo:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -193.0,52.0,-8475.0:-193.0,55.0,-8473.0
+    world: world-arcadia-2
+    destination: p:limbo-1:W
+  limbo-1:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Deevian
+    location: -1447.0,47.0,2488.0:-1447.0,50.0,2490.0
+    world: world-limbo-1
+    destination: p:amalia-norte-limbo:E
+  minigame:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: DeanM_
+    location: -1613.0,25.0,2582.0:-1613.0,27.0,2584.0
+    world: world-limbo-1
+    destination: p:limbo-1

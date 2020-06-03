@@ -17,10 +17,10 @@
 
 multiverse-configuration:
   ==: com.onarandombox.MultiverseCore.MultiverseCoreConfiguration
-  enforceaccess: 'false'
-  prefixchat: 'true'
+  enforceaccess: 'true'
+  prefixchat: 'false'
   prefixchatformat: '[%world%]%chat%'
-  useasyncchat: 'true'
+  useasyncchat: 'false'
   teleportintercept: 'true'
   firstspawnoverride: 'true'
   displaypermerrors: 'true'
@@ -28,7 +28,8 @@ multiverse-configuration:
   silentstart: 'false'
   messagecooldown: '5000'
   version: '2.9'
-  firstspawnworld: limbo-1
-  teleportcooldown: '1000'
-  defaultportalsearch: 'false'
+  firstspawnworld: world-limbo-1
+  teleportcooldown: '5000'
+  defaultportalsearch: 'true'
   portalsearchradius: '128'
+  autopurge: 'true'

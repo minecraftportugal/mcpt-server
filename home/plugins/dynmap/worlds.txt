@@ -6,7 +6,60 @@
 #   Deleting this file will result in a fresh copy being produced by dynmap.jar on the next startup.
 #
 worlds:
-  # Worlds can be handled by templates, based on world type
+
+#HUB REALM
+  - name: world-limbo-1
+    title: Limbo
+    enabled: true
+  - name: world-portals-1
+    title: Templo dos Anciãos
+    enabled: true
+
+#OVERWORLD
+  - name: world-arcadia-2
+    title: Amália
+  - name: world-arcadia-1
+    title: Abílio
+
+#NETHER
+  - name: world-arcadia-2_nether
+    title: Regiões Baixas do Amália
+  - name: world-arcadia-1_nether
+    title: Regiões Baixas do Abílio
+
+#END
+  - name: world-arcadia-2_the_end
+    title: Fim do Amália
+  - name: world-arcadia-1_the_end
+    title: Fim do Abílio
+
+#OFF
+  - name: world-arena-1
+    title: cenas
+    enabled: false
+  - name: world-limbo-1_nether
+    title: Regiões Baixas do Limbo
+    enabled: false
+  - name: world-limbo-1_the_end
+    title: Fim do Moutejo
+    enabled: false
+  - name: world-portals-1_nether
+    title: cenas
+    enabled: false
+  - name: world-Arena2 
+    title: Arena2
+    enabled: false
+  - name: world-minecraftia5
+    title: Azuth
+    enabled: false
+  - name: world-minecraftia5_nether
+    title: Regiões Baixas do Azuth
+    enabled: false
+  - name: world-minecraftia5_the_end
+    title: Fim do Azuth
+    enabled: false
+
+# Worlds can be handled by templates, based on world type
   # You can override the properties of the template by specifying them in this section
   #    for example 'Title: "My Awesome World"'
   #- name: world

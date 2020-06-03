@@ -1,7 +1,6 @@
 home/eula.txt
 home/*.json
-home/world*
-home/limbo*
+home/world-*
 home/crash-reports*
 home/plugins/dynmap/web
 home/logs

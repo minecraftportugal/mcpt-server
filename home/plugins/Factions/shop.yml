@@ -1,0 +1,39 @@
+# 
+# %points% - Only can be used in prefix - returns the cost of an item purchased
+# {cost} - returns the cost of an item
+# %player% - Only can be used in cmds - returns the players name value
+prefix: '&4&lFactionShop&8» &7Purchased &f%item% &7for &b%points% Points&7!'
+items:
+  '1':
+    slot: 1
+    block: STONE
+    name: '&aShop Item 1'
+    lore:
+    - '&cFully Customizable Lore!'
+    - '&b&l{cost} &7Points'
+    cmds:
+    - broadcast %player% bought Test Shop!
+    cost: 5
+    glowing: true
+  '2':
+    slot: 2
+    block: STONE
+    name: '&aShop Item 2'
+    lore:
+    - '&cFully Customizable Lore!'
+    - '&b&l{cost} &7Points'
+    cmds:
+    - broadcast %player% bought Test Shop!
+    cost: 5
+    glowing: true
+  '3':
+    slot: 3
+    block: STONE
+    name: '&aShop Item 3'
+    lore:
+    - '&cFully Customizable Lore!'
+    - '&b&l{cost} &7Points'
+    cmds:
+    - broadcast %player% bought Test Shop!
+    cost: 5
+    glowing: true

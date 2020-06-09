@@ -1,7 +1,9 @@
-home/eula.txt
 home/*.json
-home/world-*
 home/crash-reports*
-home/plugins/dynmap/web
+home/eula.txt
 home/logs
+home/plugins/dynmap/*.pending
+home/plugins/dynmap/web
+home/plugins/Factions/*.json
 home/scriptcraft/data/
+home/world-*

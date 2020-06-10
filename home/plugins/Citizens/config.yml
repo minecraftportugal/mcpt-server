@@ -1,0 +1,110 @@
+# Citizens Configuration
+
+npc:
+  chat:
+    options:
+      bystanders-hear-targeted-chat: false
+      max-number-of-targets-to-show: 2
+      multiple-targets-format: <target>|, <target>| & <target>| & others
+      range: 5
+      max-text-range: 500
+    format:
+      no-targets: '[<npc>]: <text>'
+      with-target-to-bystanders: '[<npc>] -> [<target>]: <text>'
+      to-target: '[<npc>] -> You: <text>'
+      with-targets-to-bystanders: '[<npc>] -> [<targets>]: <text>'
+  default:
+    look-close:
+      enabled: false
+      range: 5
+      random-look-enabled: false
+      random-look-delay: 60
+      disable-while-navigating: true
+    pathfinding:
+      range: 25.0
+    random-talker: true
+    realistic-looking: false
+    stationary-ticks: -1
+    talk-close:
+      enabled: false
+      range: 5
+    text:
+      '0': Hi, I'm <npc>!
+    waypoints:
+      cache-paths: false
+  limits:
+    default-limit: 10
+    max-permission-checks: 100
+    max-speed: 100
+    max-packet-entries: 15
+  chunks:
+    always-keep-loaded: false
+  pathfinding:
+    attack-range: 3.0625
+    use-new-finder: false
+    new-finder-open-doors: false
+    default-distance-margin: 2
+    update-path-rate: 20
+    new-finder:
+      iterations-per-tick: 25000
+    default-path-distance-margin: 1
+    disable-mc-fallback-navigation: true
+    maximum-new-pathfinder-iterations: 50000
+  selection:
+    quick-select: false
+    item: '280'
+    message: <b>You selected <a><npc><b>!
+  player:
+    remove-from-list: true
+  server-ownership: false
+  text:
+    max-talk-cooldown: 5
+    min-talk-cooldown: 10
+    talk-item: '340'
+  controllable:
+    use-boat-controls: true
+    ground-direction-modifier: 1.0
+    max-ground-speed: 0.5
+  packets:
+    update-delay: 30
+  skins:
+    max-retries: -1
+    retry-delay: 120
+    use-latest: true
+    view-distance: 100.0
+    rotation-update-degrees: 90.0
+    use-latest-by-default: false
+  tablist:
+    disable: true
+  teleport-delay: -1
+  player-scoreboard-teams:
+    enable: true
+advanced:
+  check-minecraft-version: true
+storage:
+  database:
+    driver: ''
+    password: ''
+    url: ''
+    username: ''
+  save-task:
+    delay: 72000
+  file: saves.yml
+  type: yaml
+general:
+  debug-mode: false
+  color-scheme:
+    message-highlight: <e>
+    message: <a>
+    message-error: <c>
+  translation:
+    locale: ''
+  debug-pathfinding: false
+  authlib:
+    profile-url: https://sessionserver.mojang.com/session/minecraft/profile/
+  debug-file: ''
+economy:
+  npc:
+    cost: 100.0
+subplugins:
+  folder: plugins

@@ -1,0 +1,4 @@
+{
+  "GET_PROFILE_URL": "https://mcapi.ca/uuid/players/[\u0027{username}\u0027]",
+  "GET_SKIN_PROFILE_URL": "https://mcapi.ca/name/uuid/{uuid}"
+}

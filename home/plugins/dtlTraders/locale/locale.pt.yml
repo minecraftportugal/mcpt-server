@@ -1,0 +1,142 @@
+ver: 1.1.5
+messages:
+  plugin-reload: ^6Reiniciaste com sucesso o ^3dtlTraders
+  plugin-command-message: ^6== dtlTraders ^3{version} ^6==
+  trader-created: '^6Criaste um novo comerciante: ^3{trader}'
+  trader-hire-limit: ^6Não podes contratar mais comerciantes
+  trader-stock-item-add: ^6Item adicionado
+  trader-stock-item-update: ^6Item actualizado
+  trader-stock-item-select: ^6Item seleccionado
+  trader-stock-item-invalid: ^6Item é inválido
+  trader-stock-item-remove: ^6Item removido
+  trader-stock-toggled: ^6Moveste para ^3{stock}
+  trader-stock-back: ^6Moveste de volta para o esqotue normal
+  trader-stock-price-set: '^6Define o preço para: ^3{items}^6 itens'
+  trader-stock-price-reset: ^6Todos os preços em estoque foram restabelecidos
+  trader-transaction-item: '^6{item}, preço: ^e{price}'
+  trader-transaction-success: ^6{action} ^3{amount} {item}^6 por ^3{price}
+  trader-transaction-failed-player-money: ^6Não tens dinheiro suficiente
+  trader-transaction-failed-trader-money: ^6{npc} não tem dinheiro suficiente
+  trader-transaction-failed-inventory: ^6Não tens espaço suficiente no teu inventário
+  trader-transaction-failed-limit: ^6O limite para esse item foi atingido
+  trader-managermode-stock-locked: ^6Todos os items foram gravados e o estoque foi trancado
+  trader-managermode-stock-unlocked: ^6Oestoque foi destrancado
+  trader-managermode-toggled: ^3{mode} ^6modo de gestão alternado
+  trader-managermode-enabled: ^6Modo de gestão activado para ^3{npc}
+  trader-managermode-disabled: ^6Modo de gestão desactivado para ^3{npc}
+  pattern-save-fail-exists: ^6Este padrão já existe {pattern}
+  pattern-save-success: ^6O padrão ^3{pattern}^6 foi criado com sucesso
+  banker-created: '^6Criaste um novo banqueiro: {banker}'
+  banker-tab-switch: '^6Mudaste para a aba: ^3{tab}'
+  banker-tab-locked: '^6A aba do banco foi trancada: ^3{tab}'
+  banker-tab-unlocked: '^6A aba do banco foi destrancada: ^3{tab}'
+  banker-tab-buy-success: ^6Compraste uma nova aba
+  banker-tab-buy-fail: ^6Não foi possível comprares uma nova aba
+  wallet-balance: '^6Balanço da carteira: ^3{amount}'
+  wallet-invalid: ^6Não podes utilizar este comando neste tipo de carteira
+  wallet-withdraw: ^6Retiraste ^3{amount}
+  wallet-deposit: ^6Depositaste ^3{amount}
+  wallet-withdraw-fail: ^6Há dinheiro suficiente para retirar desta carteira?
+  wallet-deposit-fail: Não tens dinheiro suficiente
+  denizen-item-hint: '{item}: {price}'
+  error-npc-invalid: ^6Este NPC não é um comerciante
+  error-npc-not-selected: ^6Não seleccionaste nenhum comerciante
+  error-nopermission-creative: ^6Não tens permissões para fazer isto enquanto estiveres em ^3modo criativo
+  error-nopermission-command: ^6Não tens permissões para executar este comando
+  error-nopermission: ^6Não tens permissões suficientes para fazer isto
+  error-argument-missing: '^6Falta o seguinte argumento: ^3{argument}'
+  error-argument-invalid: '^6Foi fornecido um argumento inválido: ^3{argument}'
+  error-managermode-enabled: ^6Não foi possível activar o modo de gestão
+  error-command-invalid: ^6Este comando é inválido
+  key-value: '^6{key}: ^3{value}'
+  key-change: '^6Alteraste {key}: ^3{value}'
+keywords:
+  'true': verdadeiro
+  'false': false
+  type: Tipo
+  trader-type: Tipo de Comerciante
+  banker-type: Tipo de Banqueiro
+  trader-market: Comerciante de Mercado
+  trader-server: Comerciante do Servidor
+  trader-player: Comerciante de um Jogador
+  banker-money: Banqueiro Monetário
+  banker-private: Banqueiro Privado
+  stack-price: Preço da pilha
+  stack-disable: Pilhas desactivadas
+  tab-price: Preço da aba
+  tab-name: Nome da aba
+  tab-icon: Ícone da aba
+  bank-name: Formato de texto do banco
+  visible-tabs: Abas visíveis
+  stock-amounts: Escolha de quantidades
+  stock-start: Começo do estoque
+  stock-size: Tamanho do estoque
+  stock-name: Nome do estoque
+  stock-sell: Vender estoque
+  stock-buy: Comprar estoque
+  stock: Estoque
+  pattern-list: Padrões definidos
+  pattern-add: Padrão adicionado
+  pattern-remove: Padrão removido
+  pattern-remove-all: Padrões removidos
+  pattern-default: Padrões por defeito
+  wallet: Carteira
+  wallet-type: Tipo de carteira
+  wallet-player: Jogador alvo
+  wallet-balance: Valanço
+  wallet-deposit: Depositaste
+  wallet-withdraw: Retiraste
+  bought: Compraste
+  owner: Dono
+  amount: Quantidade
+  limit: Limite
+  price: Preço
+  name: Nome
+  sold: Vendeste
+  enabled: Activado
+  disabled: Desactivado
+  plimit: ^3Invalid keyword!
+  timeout: ^3Invalid keyword!
+ui:
+  buy:
+    name: ^r^6Vender estoque
+    lore:
+    - ^7Carrega para mudar para comprar estoque
+  sell:
+    name: ^r^6Comprar estoque
+    lore:
+    - ^7Carrega para mudar para vender estoque
+  back:
+    name: ^r^6Voltar atrás
+    lore:
+    - ^7Voltar para o estoque
+  price:
+    name: ^r^6Gestão de preços
+    lore:
+    - ^7Carrega para alternar a gestão de preços
+  limit:
+    name: ^r^6Gestão de limites
+    lore:
+    - ^7Carrega para alternar a gestão de limites
+  lock:
+    name: ^r^6Trancar estoque
+    lore:
+    - ^7Carrega para gravar todos os items para o estoque e para o trancar
+  unlock:
+    name: ^r^6Destrancar estoque
+    lore:
+    - ^7Carrega para destrancar o estoque
+    - ^7Activa a adição ou remoção de itens do estoque
+  item-unitPrice:
+    lore:
+    - '^6Preço-Unidade: ^7{price}'
+  item-price:
+    lore:
+    - '^6Preço: ^7{price}'
+  item-sell:
+    lore:
+    - ^6Carrega para comprares este item
+  item-buy:
+    lore:
+    - ^6Carrega neste item no teu
+    - ^6inventário para o venderes

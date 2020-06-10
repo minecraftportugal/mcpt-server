@@ -2,6 +2,7 @@ home/*.json
 home/crash-reports*
 home/eula.txt
 home/logs
+home/plugins/**.log
 home/plugins/dynmap/*.pending
 home/plugins/dynmap/web
 home/plugins/Factions/*.json

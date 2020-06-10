@@ -1,0 +1,51 @@
+debug: critical
+locale:
+  load: pt
+  auto-update: false
+logging:
+  log: false
+  log-format: ''
+statistics:
+  enabled: false
+  metrics: false
+trader:
+  allow-damage: false
+  transaction:
+    double-click: false
+  managing:
+    start-stock: sell
+    right-click: false
+    item: air
+    special-blocks:
+    - dirt 0.01
+    - grass 0.1
+    - sand 1
+    - cobblestone 10
+    - stone 100
+  stock:
+    start-stock: sell
+    size: 6
+    format: '{npc}^r''s shop'
+  wallet:
+    type: infinite
+    money: 0.0
+  pattern:
+    defaults: []
+    file: patterns.yml
+  books:
+    file: books.yml
+    store: file
+  player:
+    limit: 1
+    size: 2
+    format: '{npc}^r''s shop, {player}''s company'
+  ui:
+    sell: wool:1
+    buy: wool:2
+    back: wool:14
+    price: wool:15
+    limit: wool:3
+    lock: wool:4
+    unlock: wool:5
+denizen: []
+price-format: '#0.00'

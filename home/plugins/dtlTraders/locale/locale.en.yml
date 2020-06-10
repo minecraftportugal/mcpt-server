@@ -1,0 +1,140 @@
+ver: 1.1.5
+messages:
+  plugin-reload: ^6Successfuly reloaded ^3dtlTraders
+  plugin-command-message: ^6== dtlTraders ^3{version} ^6==
+  trader-created: '^6You created a new trader: ^3{trader}'
+  trader-hire-limit: ^6You cannot hire more traders
+  trader-stock-item-add: ^6Item added
+  trader-stock-item-update: ^6Item updated
+  trader-stock-item-select: ^6Item selected
+  trader-stock-item-invalid: ^6Item is invalid
+  trader-stock-item-remove: ^6Item removed
+  trader-stock-toggled: ^6You moved to ^3{stock}
+  trader-stock-back: ^6You moved back to regular stock
+  trader-stock-price-set: '^6Set the price for: ^3{items}^6 items'
+  trader-stock-price-reset: ^6Reseted all prices in stock
+  trader-transaction-item: '^6{item}, price: ^e{price}'
+  trader-transaction-success: ^6You {action} ^3{amount} ^6for ^3{price}
+  trader-transaction-failed-player-money: ^6You dont have enough money
+  trader-transaction-failed-trader-money: ^6{npc} does not have enought money
+  trader-transaction-failed-inventory: ^6You dont got enough place in your inventory
+  trader-transaction-failed-limit: ^6Limit for that item has been reached
+  trader-managermode-stock-locked: ^6Saved all items and locked the stock
+  trader-managermode-stock-unlocked: ^6Unlocked the stock
+  trader-managermode-toggled: ^3{mode} ^6managing toggled
+  trader-managermode-enabled: ^6Manager mode enabled for ^3{npc}
+  trader-managermode-disabled: ^6Manager mode disabled for ^3{npc}
+  pattern-save-fail-exists: ^6This pattern already exists {pattern}
+  pattern-save-success: ^6Successfuly created ^3{pattern} ^6pattern
+  banker-created: '^6You created a new banker: {banker}'
+  banker-tab-switch: '^6Switched to tab: ^3{tab}'
+  banker-tab-locked: '^6Locked bank tab: ^3{tab}'
+  banker-tab-unlocked: '^6Unlocked bank tab: ^3{tab}'
+  banker-tab-buy-success: ^6Bought a new tab
+  banker-tab-buy-fail: ^6Failed to buy a new tab
+  wallet-balance: '^6Wallet balance: ^3{amount}'
+  wallet-invalid: ^6You can not use this command on this wallet type
+  wallet-withdraw: ^6Withdrawed ^3{amount}
+  wallet-deposit: ^6Deposited ^3{amount}
+  wallet-withdraw-fail: ^6Is there enough money to withdraw from this wallet?
+  wallet-deposit-fail: You dont have enought money
+  denizen-item-hint: '{item}: {price}'
+  error-npc-invalid: ^6This NPC is not a trader
+  error-npc-not-selected: ^6You did not selected any trader
+  error-nopermission-creative: ^6You dont have permissions to do this while in ^3creative mode
+  error-nopermission-command: ^6You dont have permissions to use this command
+  error-nopermission: ^6You dont have permissions to do this
+  error-argument-missing: '^6Argument is missing: ^3{argument}'
+  error-argument-invalid: '^6Invalid argument was supplied: ^3{argument}'
+  error-managermode-enabled: ^6Manager mode could not be enabled
+  error-command-invalid: ^6This command is invalid
+  key-value: '^6{key}: ^3{value}'
+  key-change: '^6Changed {key}: ^3{value}'
+keywords:
+  'true': true
+  'false': false
+  type: Type
+  trader-type: Trader type
+  banker-type: Banker type
+  trader-market: Market Trader
+  trader-server: Server Trader
+  trader-player: Player Trader
+  banker-money: Money Banker
+  banker-private: Private Banker
+  stack-price: Stack price
+  stack-disable: Stack disabled
+  tab-price: Tab price
+  tab-name: Tab name
+  tab-icon: Tab icon
+  bank-name: Bank text format
+  visible-tabs: Visible tabs
+  stock-amounts: Amounts choosing
+  stock-start: Start stock
+  stock-size: Stock size
+  stock-name: Stock name
+  stock-sell: Sell stock
+  stock-buy: Buy stock
+  stock: Stock
+  pattern-list: Patterns set
+  pattern-add: Pattern added
+  pattern-remove: Pattern removed
+  pattern-remove-all: Patterns removed
+  pattern-default: Pattern defaults
+  wallet: Wallet
+  wallet-type: Wallet type
+  wallet-player: Target player
+  wallet-balance: Balance
+  wallet-deposit: Deposited
+  wallet-withdraw: Withdrawed
+  bought: Bought
+  owner: Owner
+  amount: Amount
+  limit: Limit
+  price: Price
+  name: Name
+  sold: Sold
+  enabled: Enabled
+  disabled: Disabled
+ui:
+  buy:
+    name: ^r^6Sell stock
+    lore:
+    - ^7Click to switch to buy stock
+  sell:
+    name: ^r^6Buy Stock
+    lore:
+    - ^7Click to switch to sell stock
+  back:
+    name: ^r^6Back
+    lore:
+    - ^7Return to stock
+  price:
+    name: ^r^6Price management
+    lore:
+    - ^7Click to toggle price managing
+  limit:
+    name: ^r^6Limit management
+    lore:
+    - ^7Click to toggle limit managing
+  lock:
+    name: ^r^6Lock stock
+    lore:
+    - ^7Click to save all items to stock and lock it
+  unlock:
+    name: ^r^6Unlock stock
+    lore:
+    - ^7Click to unlock the stock
+    - ^7Enables item adding/removing from stock
+  item-unitPrice:
+    lore:
+    - '^6Unit-Price: ^7{price}'
+  item-price:
+    lore:
+    - '^6Price: ^7{price}'
+  item-sell:
+    lore:
+    - ^6Click to buy this item
+  item-buy:
+    lore:
+    - ^6Click on this item in
+    - ^6your inventory to sell it

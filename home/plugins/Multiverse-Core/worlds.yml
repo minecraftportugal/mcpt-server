@@ -93,33 +93,33 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  world-minecraftia5_the_end:
+  world-arena-2:
     ==: MVWorld
     hidden: 'false'
-    alias: Azuth End
+    alias: Arena2
     color: WHITE
     style: NORMAL
-    pvp: 'false'
+    pvp: 'true'
     scale: '1.0'
     respawnWorld: ''
-    allowWeather: 'true'
+    allowWeather: 'false'
     difficulty: NORMAL
     spawning:
       ==: MVSpawnSettings
       animals:
         ==: MVSpawnSubSettings
-        spawn: 'true'
+        spawn: 'false'
         spawnrate: '-1'
         exceptions: []
       monsters:
         ==: MVSpawnSubSettings
-        spawn: 'true'
+        spawn: 'false'
         spawnrate: '-1'
         exceptions: []
     entryfee:
       ==: MVEntryFee
       amount: '0.0'
-    hunger: 'true'
+    hunger: 'false'
     autoHeal: 'true'
     adjustSpawn: 'true'
     portalForm: ALL
@@ -127,16 +127,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.0
-      y: 65.0
-      z: 0.0
+      x: 1.5
+      y: 4.0
+      z: 0.5
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: THE_END
-    seed: '-344943788'
+    environment: NORMAL
+    seed: '5324464528770921667'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -187,33 +187,33 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  world-arena-2:
+  world-minecraftia5_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: Arena2
+    alias: Azuth End
     color: WHITE
     style: NORMAL
-    pvp: 'true'
+    pvp: 'false'
     scale: '1.0'
     respawnWorld: ''
-    allowWeather: 'false'
+    allowWeather: 'true'
     difficulty: NORMAL
     spawning:
       ==: MVSpawnSettings
       animals:
         ==: MVSpawnSubSettings
-        spawn: 'false'
+        spawn: 'true'
         spawnrate: '-1'
         exceptions: []
       monsters:
         ==: MVSpawnSubSettings
-        spawn: 'false'
+        spawn: 'true'
         spawnrate: '-1'
         exceptions: []
     entryfee:
       ==: MVEntryFee
       amount: '0.0'
-    hunger: 'false'
+    hunger: 'true'
     autoHeal: 'true'
     adjustSpawn: 'true'
     portalForm: ALL
@@ -221,16 +221,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 1.5
-      y: 4.0
-      z: 0.5
+      x: 0.0
+      y: 65.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NORMAL
-    seed: '5324464528770921667'
+    environment: THE_END
+    seed: '-344943788'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -328,53 +328,6 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  world-minecraftia5:
-    ==: MVWorld
-    hidden: 'false'
-    alias: Azuth
-    color: WHITE
-    style: NORMAL
-    pvp: 'false'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: NORMAL
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 272.69346127094474
-      y: 128.0
-      z: 511.1072551214376
-      pitch: 0.0
-      yaw: 180.14905
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '-344943788'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
   world-arcadia-2:
     ==: MVWorld
     hidden: 'false'
@@ -422,13 +375,13 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  world-arcadia-1:
+  world-minecraftia5:
     ==: MVWorld
     hidden: 'false'
-    alias: Abílio
+    alias: Azuth
     color: WHITE
     style: NORMAL
-    pvp: 'true'
+    pvp: 'false'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
@@ -450,22 +403,22 @@ worlds:
       amount: '0.0'
     hunger: 'true'
     autoHeal: 'true'
-    adjustSpawn: 'false'
+    adjustSpawn: 'true'
     portalForm: ALL
     gameMode: SURVIVAL
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 738.5
-      y: 47.5
-      z: 8531.5
+      x: 272.69346127094474
+      y: 128.0
+      z: 511.1072551214376
       pitch: 0.0
-      yaw: 180.44997
+      yaw: 180.14905
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '420823004'
+    seed: '-344943788'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -513,6 +466,53 @@ worlds:
     worldBlacklist: []
     environment: THE_END
     seed: '-18041986'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  world-arcadia-1:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Abílio
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: NORMAL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'false'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 738.5
+      y: 47.5
+      z: 8531.5
+      pitch: 0.0
+      yaw: 180.44997
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '420823004'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

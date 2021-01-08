@@ -6,5 +6,6 @@ home/plugins/**.log
 home/plugins/dynmap/*.pending
 home/plugins/dynmap/web
 home/plugins/Factions/*.json
+home/plugins/SkinsRestorer/Skins/*
 home/scriptcraft/data/
 home/world-*

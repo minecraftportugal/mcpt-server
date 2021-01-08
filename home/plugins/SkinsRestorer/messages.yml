@@ -58,3 +58,14 @@ HELP_PLAYER: |2-
      &2/skin <skinname> &7-&f Changes your skin.
       &2/skin update &7-&f Updates your skin.
       &2/skin clear &7-&f Clears your skin.
+HELP_SKIN_SET_OTHER_URL: Set a skin by Image_url.png
+SYNTAX_DEFAULTCOMMAND: ' <skin/url>'
+SYNTAX_SKINSET: ' <skin>'
+SYNTAX_SKINSET_OTHER: ' <target> <skin/url>'
+SYNTAX_SKINURL: ' <url>'
+SYNTAX_SKINUPDATE_OTHER: ' <target>'
+SYNTAX_SKINCLEAR_OTHER: ' <target>'
+SKIN_COOLDOWN: '&4Error&8: &cYou can change your skin again in &e%s &cseconds.'
+ERROR_UPDATING_CUSTOMSKIN: '&4Error&8: &cSkin can''t be updated because its custom.'
+SKINSMENU_TITLE_NEW: '&9Skins Menu - Page %page'
+DATA_DROPPED: '&2Data dropped for %playerOrSkin %targets.'

@@ -3,11 +3,11 @@ version: "3"
 services:
   server:
     user: 1001:1001
-    image: minecraft-server:1.15.2
+    image: minecraft-server:1.16.4
     build:
       context: server
       args:
-        spigot_version: 1.15.2
+        spigot_version: 1.16.4
     volumes:
       - ./home:/data
     ports:

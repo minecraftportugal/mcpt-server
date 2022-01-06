@@ -79,7 +79,9 @@ player-list:
   # - 'My third line'
   header:
   - ''
-  - '${shine:[0;2;0][0;25;0][0;25;0][&3;&b]My Server}'
+  # - '${shine:[0;2;0][0;25;0][0;25;0][&3;&b]My Server}'
+  - '&2mc&ept&4.eu&r'
+  - ''
   - ''
 
   # Sets the footer of the player list.
@@ -93,11 +95,14 @@ player-list:
   # - 'My second line'
   # - 'My third line'
   footer:
+  #- ''
+  #- '&7Ping: &b%{ping}ms'
+  #- '&7World time: &b%{12h-world-time}'
+  #- '&7Server time: &b%{server-time}'
   - ''
-  - '&7World time: &b%{12h-world-time}'
-  - '&7Server time: &b%{server-time}'
   - ''
-  - '${right-to-left} &b%{online}&7/&b%{max} &7Online Players ${left-to-right}'
+  - ' %{ping}ms ping &7|&b %{12h-world-time} time &7|&b %{online}/%{max} online '
+  - ''
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -189,7 +194,7 @@ placeholders:
 scoreboard:
 
   # Toggles this feature
-  enabled: true
+  enabled: false 
 
   # The title displayed at the very top of the scoreboard
   # WARNING! (1.12 or below ONLY) The title must consist of 32 or less characters (this includes color codes)

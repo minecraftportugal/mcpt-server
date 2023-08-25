@@ -33,7 +33,7 @@
 ############################################################
 
 # Never change this value
-config-version: 6
+config-version: 7
 
 # Toggles debug mode, which prints additional information when the plugin does something.
 debug: false
@@ -52,7 +52,7 @@ legacy-client-support: false
 check-for-updates: true
 
 # The locale used for some of the placeholders.
-locale: 'en-US'
+locale: en-US
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -79,7 +79,6 @@ player-list:
   # - 'My third line'
   header:
   - ''
-  # - '${shine:[0;2;0][0;25;0][0;25;0][&3;&b]My Server}'
   - '&2mc&ept&4.eu&r'
   - ''
   - ''
@@ -95,10 +94,6 @@ player-list:
   # - 'My second line'
   # - 'My third line'
   footer:
-  #- ''
-  #- '&7Ping: &b%{ping}ms'
-  #- '&7World time: &b%{12h-world-time}'
-  #- '&7Server time: &b%{server-time}'
   - ''
   - ''
   - ' %{ping}ms ping &7|&b %{12h-world-time} time &7|&b %{online}/%{max} online '
@@ -117,11 +112,12 @@ welcome-title:
   # Toggles this feature.
   enabled: true
 
-  # The title shown.
-  title: 'Welcome to My Server'
+  # The title displayed at the very top of the scoreboard
+  # WARNING! (1.12 or below ONLY) The title must consist of 32 or less characters (this includes color codes)
+  title: Welcome to My Server
 
   # The subtitle shown.
-  subtitle: 'Hope you enjoy your stay'
+  subtitle: Hope you enjoy your stay
 
   # The time it takes for the title to fade into the screen. (In ticks)
   fade-in: 20
@@ -132,14 +128,17 @@ welcome-title:
   # The time it takes for the title to fade out of the screen. (In ticks)
   fade-out: 20
 
-  # The title shown when the player joins the server for the first time.
+  # The message shown when the player joins the server for the first time.
   first-join:
 
     # The title shown.
-    title: 'Welcome to My Server'
+    title: Welcome to My Server
 
     # The subtitle shown.
-    subtitle: 'This is your first time!'
+    subtitle: This is your first time!
+
+  # The time it takes for the message to appear. (In ticks)
+  delay: 20
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -154,11 +153,15 @@ welcome-actionbar:
   # Toggles this feature.
   enabled: true
 
-  # The message shown.
-  title: 'Welcome to My Server'
+  # The title displayed at the very top of the scoreboard
+  # WARNING! (1.12 or below ONLY) The title must consist of 32 or less characters (this includes color codes)
+  title: Welcome to My Server
 
   # The message shown when the player joins the server for the first time.
-  first-join: 'Welcome to My Server, this is your first time!'
+  first-join: Welcome to My Server, this is your first time!
+
+  # The time it takes for the message to appear. (In ticks)
+  delay: 20
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -175,13 +178,8 @@ placeholders:
 
     # Toggles this feature.
     enabled: true
-
-    # The format used.
     format: '#,###.##'
-
-  # The format used by the server-time placeholder.
-  # The format used can be found here: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
-  date-format: 'EEE, dd MMM yyyy HH:mm:ss z'
+  date-format: EEE, dd MMM yyyy HH:mm:ss z
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -193,16 +191,11 @@ placeholders:
 
 scoreboard:
 
-  # Toggles this feature
-  enabled: false 
-
-  # The title displayed at the very top of the scoreboard
-  # WARNING! (1.12 or below ONLY) The title must consist of 32 or less characters (this includes color codes)
-  title: '${shine:[0;2;0][0;25;0][0;25;0][&3&l;&b&l]My Server}'
+  # Toggles this feature.
+  enabled: false
+  title: ${shine:[0;2;0][0;25;0][0;25;0][&3&l;&b&l]My Server}
 
   # The lines of the scoreboard (Maximum of 15 lines allowed)
-  # Each line can only have 40 characters (this includes color codes)
-  # Each line must also be unique, a work around would be to put a color code at the end your line, to make it unique.
   lines:
   - '&b&m----------------------------------'
   - '&b> &3&lPlayer Name:'
@@ -217,8 +210,8 @@ scoreboard:
 
   # A list of worlds that the Scoreboard should not be shown in.
   disabled-worlds:
-  - 'my-disabled-world'
-  - 'my-disabled-world-nether'
+  - my-disabled-world
+  - my-disabled-world-nether
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -283,6 +276,17 @@ bandwidth:
 
 ############################################################
 # +------------------------------------------------------+ #
+# |                     Plugin Hooks                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Allows you to enable and disable certain hooks.
+
+hooks:
+  combatlogx: true
+
+############################################################
+# +------------------------------------------------------+ #
 # |                       Messages                       | #
 # +------------------------------------------------------+ #
 ############################################################
@@ -295,44 +299,44 @@ messages:
 
   # The messages from the command /tm version
   command-version:
-    description: 'Gives you the current running version of TitleManager'
+    description: Gives you the current running version of TitleManager
     version: '&aThe server is running %version'
 
   # The messages from the command /tm reload
   command-reload:
-    description: 'Reloads TitleManager'
+    description: Reloads TitleManager
     reloaded: '&aTitleManager reloaded'
 
   # The messages from the command /tm animations
   command-animations:
-    description: 'Displays all loaded animations'
+    description: Displays all loaded animations
     format: '&aLoaded animations (&f%count&a): %animations'
     separator: '&f, &a'
 
   # The messages from the command /tm scripts
   command-scripts:
-    description: 'Displays all loaded scripts'
+    description: Displays all loaded scripts
     format: '&aLoaded scripts (&f%count&a): %scripts'
     separator: '&f, &a'
 
   # The messages from the command /tm broadcast
   command-broadcast:
-    description: 'Broadcasts a title to the server'
-    usage: '<title>|<title\nsubtitle>'
+    description: Broadcasts a title to the server
+    usage: <title>|<title\nsubtitle>
     title-sent: '&aYou have broadcasted the title "&r%title&a".'
     subtitle-sent: '&aYou have broadcasted the subtitle "&r%subtitle&a".'
     both-sent: '&aYou have broadcasted the titles "&r%title&a" "&r%subtitle&a".'
 
   # The messages from the command /tm abroadcast
   command-abroadcast:
-    description: 'Broadcasts an actionbar title to the server'
-    usage: '<title>'
+    description: Broadcasts an actionbar title to the server
+    usage: <title>
     sent: '&aYou have broadcasted the actionbar title "&r%title&a".'
 
   # The messages from the command /tm message
   command-message:
-    description: 'Sends a title to the specified player'
-    usage: '<player> <title>|<title\nsubtitle>'
+    description: Sends a title to the specified player
+    usage: <player> <title>|<title\nsubtitle>
     title-sent: '&aYou have sent %player the title "&r%title&a".'
     subtitle-sent: '&aYou have sent %player the subtitle "&r%subtitle&a".'
     both-sent: '&aYou have sent %player the titles "&r%title&a" "&r%subtitle&a".'
@@ -340,14 +344,14 @@ messages:
 
   # The messages from the command /tm amessage
   command-amessage:
-    description: 'Sends an actionbar title to the specified player'
-    usage: '<player> <title>'
+    description: Sends an actionbar title to the specified player
+    usage: <player> <title>
     sent: '&aYou have sent %player the actionbar title "&r%title&a".'
     invalid-player: '&c%player is not a valid player.'
 
   # The messages from the command /tm scoreboard
   command-scoreboard:
-    description: 'Toggles the scoreboard on or off.'
-    usage: 'toggle'
+    description: Toggles the scoreboard on or off.
+    usage: toggle
     toggled-on: '&aYou have enabled your scoreboard.'
     toggled-off: '&cYou have disabled your scoreboard.'

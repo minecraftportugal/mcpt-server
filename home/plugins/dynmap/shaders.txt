@@ -213,3 +213,7 @@ shaders:
     name: stdtexture-underwater-keep-land
     texturepack: standard
     hide-land: false
+-   class: org.dynmap.hdmap.ChunkVersionHDShader
+    name: chunkversion
+-   class: org.dynmap.hdmap.ChunkStatusHDShader
+    name: chunkstatus

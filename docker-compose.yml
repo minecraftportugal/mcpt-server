@@ -2,6 +2,7 @@ version: "3"
 
 services:
   server:
+    container_name: minecraft_server
     user: 1001:1001
     image: ticklemynausea/minecraft:latest
     build:
@@ -14,9 +15,15 @@ services:
       - "25565:25565"
       - "25575:25575"
       - "8123:8123"
+    security_opt:
+      - seccomp:unconfined
   db:
-    image: mariadb:latest
+    container_name: minecraft_mariadb
+    image: yobasystems/alpine-mariadb:latest
     environment:
+      - MYSQL_DATABASE=dummy
+      - MYSQL_USER=dummy
+      - MYSQL_PASSWORD=d0mmy
       - MYSQL_ROOT_PASSWORD=t00t
     volumes:
       - dbdata:/var/lib/mysql

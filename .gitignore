@@ -1,7 +1,11 @@
 home/*.json
+home/*.log
 home/crash-reports*
 home/eula.txt
 home/logs
+home/bundler
+home/core
+home/libraries
 home/plugins/**/**.log
 home/plugins/dynmap/*.pending
 home/plugins/dynmap/web

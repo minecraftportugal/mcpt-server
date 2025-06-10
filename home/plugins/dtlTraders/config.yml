@@ -49,3 +49,17 @@ trader:
     unlock: wool:5
 denizen: []
 price-format: '#0.00'
+General:
+  disable-npc-left-click: false
+  disable-npc-right-click: false
+  Support:
+    OptEco:
+      enabled: false
+    GemsEconomy:
+      enabled: false
+      currency: Valis
+    BeastToken:
+      enabled: false
+    Vault:
+      enabled: true
+    Placeholderapi: true

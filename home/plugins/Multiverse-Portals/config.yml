@@ -5,6 +5,8 @@
 # A config with explanations can be found here:
 # https://github.com/Multiverse/Multiverse-Portals/wiki/config.yml
 
+bucketfilling: true
+netheranimation: true
 wand: 271
 useonmove: true
 portalsdefaulttonether: false

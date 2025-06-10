@@ -1,47 +1,55 @@
 wildcards:
-    admin-wildcard: "dtltraders.admin"
-    shop-wildcard: "dtltraders.shop.*"
-    page-wildcard: "dtltraders.page.*"
-    items-wildcard: "dtltraders.items.*"
-       
+  admin-wildcard: dtltraders.admin
+  shop-wildcard: dtltraders.shop.*
+  page-wildcard: dtltraders.page.*
+  items-wildcard: dtltraders.items.*
+
 commands:
-    help: "dtltraders.help"
-    toggle: "dtltraders.toggle"
-    edit: "dtltraders.edit"
-    create: "dtltraders.create"
-    delete: "dtltraders.delete"
-    list: "dtltraders.list"
-    trait: "dtltraders.trait"
-    reload: "dtltraders.reload"
-    info: "dtltraders.info"
-    loadconfig: "dtltraders.loadconfig"
-    save: "dtltraders.save"
-    
+  help: dtltraders.help
+  toggle: dtltraders.toggle
+  edit: dtltraders.edit
+  create: dtltraders.create
+  delete: dtltraders.delete
+  list: dtltraders.list
+  trait: dtltraders.trait
+  reload: dtltraders.reload
+  info: dtltraders.info
+  loadconfig: dtltraders.loadconfig
+  save: dtltraders.save
+  selectors:
+    wildcard: dtltraders.commands.selector.back
+    exit: dtltraders.commands.selector.exit
+    next: dtltraders.commands.selector.next
+    buy: dtltraders.commands.selector.buy
+    sell: dtltraders.commands.selector.sell
+    trade: dtltraders.commands.selector.trade
+  open: dtltraders.open
+
 inventories:
-    shop:
-        create-shop: "dtltraders.inv.create-shop"
-        select-shop: "dtltraders.inv.select-shop"
-        edit-shop: "dtltraders.inv.edit-shop"
-        edit-shop-name: "dtltraders.inv.edit-shop-name"
-        edit-shop-permission: "dtltraders.inv.edit-shop-permission"
-        edit-shop-command: "dtltraders.inv.edit-shop-command"
-        edit-shop-default: "dtltraders.inv.edit-shop-default"
-        edit-shop-status: "dtltraders.inv.edit-shop-status"
-        clone-shop: "dtltraders.inv.clone-shop"
-        remove-shop: "dtltraders.inv.remove-shop"
-    page:
-        create-page: "dtltraders.inv.create-page"
-        select-page: "dtltraders.inv.select-page"
-        edit-page: "dtltraders.inv.edit-page"
-        edit-page-name: "dtltraders.inv.edit-page-name"
-        edit-page-contents: "dtltraders.inv.edit-page-contents"
-        edit-page-contents-functions: "dtltraders.inv.edit-page-contents"
-        edit-page-size: "dtltraders.inv.edit-page-size"
-        edit-page-permission: "dtltraders.inv.edit-page-permission"
-        mirror-page: "dtltraders.inv.mirror-page"
-        remove-page: "dtltraders.inv.remove-page"
-    items:
-        static: "dtltraders.inv.items.static"
-        tradable: "dtltraders.inv.items.tradable"
-        commands: "dtltraders.inv.items.static"
-        trade: "dtltraders.inv.items.static"
+  shop:
+    create-shop: dtltraders.inv.create-shop
+    select-shop: dtltraders.inv.select-shop
+    edit-shop: dtltraders.inv.edit-shop
+    edit-shop-name: dtltraders.inv.edit-shop-name
+    edit-shop-permission: dtltraders.inv.edit-shop-permission
+    edit-shop-command: dtltraders.inv.edit-shop-command
+    edit-shop-default: dtltraders.inv.edit-shop-default
+    edit-shop-status: dtltraders.inv.edit-shop-status
+    clone-shop: dtltraders.inv.clone-shop
+    remove-shop: dtltraders.inv.remove-shop
+  page:
+    create-page: dtltraders.inv.create-page
+    select-page: dtltraders.inv.select-page
+    edit-page: dtltraders.inv.edit-page
+    edit-page-name: dtltraders.inv.edit-page-name
+    edit-page-contents: dtltraders.inv.edit-page-contents
+    edit-page-contents-functions: dtltraders.inv.edit-page-contents
+    edit-page-size: dtltraders.inv.edit-page-size
+    edit-page-permission: dtltraders.inv.edit-page-permission
+    mirror-page: dtltraders.inv.mirror-page
+    remove-page: dtltraders.inv.remove-page
+  items:
+    static: dtltraders.inv.items.static
+    tradable: dtltraders.inv.items.tradable
+    commands: dtltraders.inv.items.static
+    trade: dtltraders.inv.items.static

@@ -1,102 +1,116 @@
 General:
-    no-permission: "&cSorry! You don't have permission to do this!"
-    prefix: "&bdtlTraders > "
+  no-permission: '&cSorry! You don''t have permission to do this!'
+  prefix: '&bdtlTraders > '
+  buy-price-format: '&7Buy price: &a$%price%'
+  sell-price-format: '&7Sell reward: &a$%price%'
+  price-format: '#0.00'
+  buy-action: buy
+  sell-action: sell
+  trade-action: trade
 Errors:
-    contains-space: "This can't contains spaces"
-    default-shop-set-trader-disabled: "&cCan't change the default shop since there is no other shop enabled"
-    shop-disabled-no-other-shop-enabled: "&cNo other shop enabled. Trader disabled!"
-    rows-less-than-zero: "&cRows can't be less or equal to zero!"
-    rows-more-than-six: "&cRows can't be more than 6"
-    invalid-number: "&c%input% is an invalid number!"
-    negative-percentage: "&cPercentage can't be negative!"
-    invalid-percentage: "&c%input% is an invalid percentage"
-    negative-price: "&cPrice can't be negative"
-    invalid-price: "&c%input% is an invalid price"
-    discount-price-higher: "&cDiscount price can't be higher as trade price"
-    invalid-time-format: "&cInvalid time format! Examples: 8h, 7d, etc!"
-    discount-0-seconds: "&cA discount should at least last 1 second"
-    no-commands-found: "&cNo commands found!"
-    not-a-number: "&c%input% is not a number"
-    invalid-gui-name: "&c%input% is an invalid gui name!"
-    not-a-shop-gui: "&c%input% is not a shop gui!"
+  contains-space: This can't contains spaces
+  default-shop-set-trader-disabled: '&cCan''t change the default shop since there
+    is no other shop enabled'
+  shop-disabled-no-other-shop-enabled: '&cNo other shop enabled. Trader disabled!'
+  rows-less-than-zero: '&cRows can''t be less or equal to zero!'
+  rows-more-than-six: '&cRows can''t be more than 6'
+  invalid-number: '&c%input% is an invalid number!'
+  negative-percentage: '&cPercentage can''t be negative!'
+  invalid-percentage: '&c%input% is an invalid percentage'
+  negative-price: '&cPrice can''t be negative'
+  invalid-price: '&c%input% is an invalid price'
+  discount-price-higher: '&cDiscount price can''t be higher as trade price'
+  invalid-time-format: '&cInvalid time format! Examples: 8h, 7d, etc!'
+  discount-0-seconds: '&cA discount should at least last 1 second'
+  no-commands-found: '&cNo commands found!'
+  not-a-number: '&c%input% is not a number'
+  invalid-gui-name: '&c%input% is an invalid gui name!'
+  not-a-shop-gui: '&c%input% is not a shop gui!'
+  not-holding-item: '&cYou must hold an item in your hand!'
 
 Transactions:
-    no-permission: "&cYou don't have permission to %action% this item!"
-    trade-limit-reached: "&cYou have reached the trade limit! Come back in %time%"
-    insufficient-items: "&cYou don't have enough items to %action% this item!"
-    insufficient-funds: "&cYou don't have enough money to buy this! You need %needed% more!"
-    no-inventory-space: "&cYou don't have enough item space!"
-    bought-item: "&aSuccessfully bought %item% for %price%"
-    sold-item: "&aSuccessfully sold %item% for %price%"
-    traded-item: "&aTrade successful!"
+  no-permission: '&cYou don''t have permission to %action% this item!'
+  trade-limit-reached: '&cYou have reached the trade limit! Come back in %time%'
+  insufficient-items: '&cYou don''t have enough items to %action% this item!'
+  insufficient-funds: '&cYou don''t have enough money to buy this! You need %needed%
+    more!'
+  no-inventory-space: '&cYou don''t have enough item space!'
+  bought-item: '&aSuccessfully bought %item% for %price%'
+  sold-item: '&aSuccessfully sold %item% for %price%'
+  traded-item: '&aTrade successful!'
+  item-not-sold: '&cCouldn''t sell item because %reason%'
 NPC:
-    gui-link: "&aAssociating this NPC with gui &e%shop% &a!"
-    no-gui-attached: "&cThere is no gui attached to this npc!"
+  gui-link: '&aAssociating this NPC with gui &e%shop% &a!'
+  no-gui-attached: '&cThere is no gui attached to this npc!'
+  invalid-npc-id: '&c%input% is not a valid npc id!'
+  trait-added: '&aTrait added successfully to npc %id%'
 
 Shop:
-    shop-name-changed: "&aShop name changed to &e%shop-name%"
-    shop-permission-changed: "&aShop permission changed to &e%shop-permission%"
-    shop-command-changed: "&aShop command changed to &e%shop-command%"
-    shop-already-created: "%input% already exists as shop name"
-    could-not-find-shop: "&cCouldn't find shop with name %input%"
-    shop-deleted: "&e%shop% &cdeleted!"
-    shop-disabled: "&cThis shop is disabled!"
-    shop-created: "&aShop created!"
-    shop-title: "%shop-name% - %page-name% - %shop-mode%"
-    shop-mode-buy: "buy"
-    shop-mode-sell: "sell"
-    shop-mode-trade: "trade"
+  shop-name-changed: '&aShop name changed to &e%shop-name%'
+  shop-permission-changed: '&aShop permission changed to &e%shop-permission%'
+  shop-command-changed: '&aShop command changed to &e%shop-command%'
+  shop-already-created: '%input% already exists as shop name'
+  could-not-find-shop: '&cCouldn''t find shop with name %input%'
+  shop-deleted: '&e%shop% &cdeleted!'
+  shop-disabled: '&cThis shop is disabled!'
+  shop-created: '&aShop created!'
+  shop-title: '%shop-name% - %page-name% - %shop-mode%'
+  shop-mode-buy: buy
+  shop-mode-sell: sell
+  shop-mode-trade: trade
 
 Page:
-    page-name-changed: "&aShop name changed to &e%page-name%"
-    page-size-changed: "&aPage size changed to &e%page-size%"
-    page-permission-changed: "&aPage permission changed to &e%page-permission%"
-    page-already-created: "%input% is already in use in this shop!"
-    page-deleted: "&e%page-name% &cdeleted!"
+  page-name-changed: '&aShop name changed to &e%page-name%'
+  page-size-changed: '&aPage size changed to &e%page-size%'
+  page-permission-changed: '&aPage permission changed to &e%page-permission%'
+  page-already-created: '%input% is already in use in this shop!'
+  page-deleted: '&e%page-name% &cdeleted!'
 
 Mirror:
-    buy-shop-copied: "&aBuy shop copied!"
-    sell-shop-copied: "&aSell shop copied!"
-    trade-shop-copied: "&aTrade shop copied!"
-    buy-shop-pasted: "&aPasted into this buy shop"
-    sell-shop-pasted: "&aPasted into this sell shop"
-    trade-shop-pasted: "&aPasted into this trade shop"
+  buy-shop-copied: '&aBuy shop copied!'
+  sell-shop-copied: '&aSell shop copied!'
+  trade-shop-copied: '&aTrade shop copied!'
+  buy-shop-pasted: '&aPasted into this buy shop'
+  sell-shop-pasted: '&aPasted into this sell shop'
+  trade-shop-pasted: '&aPasted into this trade shop'
 
 Items:
-    broadcast-message-changed: "&aBroadcast message changed to %message%"
-    trade-limit-time-changed: "&aTrade time limit changed to %limit-time%"
-    trade-limit-changed: "&aTrade limit changed to %limit%"
-    item-name-changed: "&aItem name changed to %name%"
-    item-permission-changed: "&aItem permission changed to %permission%"
-    description-deleted: "&c%line% deleted!"
-    description-added: "&a%line% created!"
-    description-changed: "&aDescription line changed to %line%"
-    command-deleted: "&c%command% deleted!"
-    command-added: "&a%command% added!"
-    command-changed: "&aCommand changed to %command%"
+  broadcast-message-changed: '&aBroadcast message changed to %message%'
+  trade-limit-time-changed: '&aTrade time limit changed to %limit-time%'
+  trade-limit-changed: '&aTrade limit changed to %limit%'
+  item-name-changed: '&aItem name changed to %name%'
+  item-permission-changed: '&aItem permission changed to %permission%'
+  description-deleted: '&c%line% deleted!'
+  description-added: '&a%line% created!'
+  description-changed: '&aDescription line changed to %line%'
+  command-deleted: '&c%command% deleted!'
+  command-added: '&a%command% added!'
+  command-changed: '&aCommand changed to %command%'
+  no-permission: '&cYou don''t have permission for this!'
 
 
-#Display item keys (!ONLY TRADABLE & COMMANDS ITEM!)
-#Trade item will soon follow
-#Only change the text behind the ":" mark. Don't change the key in front
-#Possible placeholders which will be replaced:
-#%price% = will be replaced by the set Trade price
-#%discount_start% = will be replaced by the start of the discount (date)
-#%discount_price% = will be replaced by the discount price (if a discount price is set)
-#%discount_duration% will be replaced by the duration in seconds
-#%discount_end% will be replaced by the end of the discount (date)
-#%trade_player% = will be replaced by the already bought amount of the player
-#%trade_limit_max% = will be replaced by the set limit
-#%trade_limit_time_left% will be replaced by the time left until the limit is being reset
+# Display item keys (!ONLY TRADABLE & COMMANDS ITEM!)
+# Trade item will soon follow
+# Only change the text behind the ":" mark. Don't change the key in front
+# Possible placeholders which will be replaced:
+# %price% = will be replaced by the set Trade price
+# %discount_start% = will be replaced by the start of the discount (date)
+# %discount_price% = will be replaced by the discount price (if a discount price is set)
+# %discount_duration% will be replaced by the duration in seconds
+# %discount_end% will be replaced by the end of the discount (date)
+# %trade_player% = will be replaced by the already bought amount of the player
+# %trade_limit_max% = will be replaced by the set limit
+# %trade_limit_time_left% will be replaced by the time left until the limit is being reset
 Display-items:
-    price: "&3Price: &e%price%"
-    discount-start: "&7Discount Start: &6%discount_start%"
-    discount-price: "&bDiscount price: &c%discount_price%"
-    discount-duration: "&bDiscount duration: %discount_duration%"
-    discount-end: "&bDiscount Start: %discount_end%"
-    trade-limit: "%trade_player%/%trade_limit_max%"
-    trade-limit-seconds: "Seconds left: %trade_limit_time_left%"
-    obtainable-items: "&bObtainable items:"
-    needed-items: "&bNeeded items:"
+  price: '&3Price: &e%price%'
+  discount-start: '&7Discount Start: &6%discount_start%'
+  discount-price: '&bDiscount price: &c%discount_price%'
+  discount-duration: '&bDiscount duration: %discount_duration%'
+  discount-end: '&bDiscount Start: %discount_end%'
+  trade-limit: '%trade_player%/%trade_limit_max%'
+  trade-limit-seconds: 'Seconds left: %trade_limit_time_left%'
+  obtainable-items: '&bObtainable items:'
+  needed-items: '&bNeeded items:'
+  trade-price: '&aTrade Price: %trade-price%'
 
-    
+

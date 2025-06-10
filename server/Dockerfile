@@ -1,11 +1,11 @@
-FROM debian:sid
+FROM ubuntu:noble
 
 ARG spigot_version
 ENV SPIGOT_VERSION $spigot_version
 
 RUN apt update
 RUN apt upgrade -y
-RUN apt install -y wget git openjdk-20-jdk
+RUN apt install -y wget git openjdk-21-jdk
 RUN mkdir /buildtools
 
 RUN wget -q -P /buildtools https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar

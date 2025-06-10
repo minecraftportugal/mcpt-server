@@ -13,6 +13,9 @@
 
 
 settings:
+  compatibility:
+    allow-old-keys-in-registry: false
+    enum-compatibility-mode: false
   use-map-color-cache: true
   minimum-api: none
   allow-end: true
